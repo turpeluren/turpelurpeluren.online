@@ -725,8 +725,9 @@
 		textline.innerText = header;
 		maintext.appendChild(textline);
 		printLine("Welcome! I'm glad you could make it to my domain on the internet!\n\n"+
-		'If you find the terminal interface overwhelming I advise you to go to the '+
-        '<a href="https://blog.turpelurpeluren.online">blog</a>.\n\n'+
+		'If you find the terminal interface overwhelming I advise you to check out '+
+        //the '<a href="https://blog.turpelurpeluren.online">blog</a>.\n\n'+
+        'my selfie project <a href="https://blog.turpelurpeluren.online">picture of the day</a>.\n\n'+
 		'Otherwise, type <b>help</b> for a list of commands.\n');
 	}
 	boot();
