@@ -512,7 +512,7 @@
 				'<a target="_blank" href="https://terminal.satnaing.dev/">Sat Naing</a> who in turn was inspired by '+
 				'<a target="_blank" href="https://term.m4tt72.com/">m4tt72</a> and <a target="_blank" href="https://fkcodes.com/">Forrest</a> '+
 				"\n\nI run a blog/digital garden which is currently separate from this site and always under construction. It is obviously called "+
-                "<a target='_blank' href='https://blogelogeluren.netlify.app'>blogelogeluren</a>. "+
+                "<a target='_blank' href='https://blog.turpelurpeluren.online'>blogelogeluren</a>. "+
                 "If you'd like to check out my other projects, it is one possible entry point, although my projects have a tendency of sprawling all over. "+
 				"The <b>links</b> command can also be somewhat useful for investigating me further. "+
                 "Feel perfectly free to click around as much as you can!\n");
