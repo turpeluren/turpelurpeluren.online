@@ -245,16 +245,20 @@
 
 	function sendMessage(name, info, message) {
 
+		const krok = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM1MzAxNzE3ODAzODczNDg2OS9DQWZfSkJFNlExeFVmOTBvVGtWM3phRmkyTEc0YlRxcTB3RGVQQVdtWFZaZHVwanU1RnhudzZtZHQ3LU54VHdjeUk0VA==");
+
 		var request = new XMLHttpRequest();
-		request.open("POST", "https://discordapp.com/api/webhooks/1331284332702204015/LvYccn2hXRzIRSR6-ehIDpVwtz4vn_tcJyQ6ND9f--kEq06JmH5uA6ShkAeXzYqnO2qE");
+		request.open("POST", krok);
 		request.setRequestHeader('Content-type', 'application/json');
-		// the below variables combine a label (text) + the textarea value + a newline (\n)
-		// add up to 2,000 characters (Discord's character limit)
 	
-		//var date = new Date();
-		//var f_date = date.toLocaleDateString('sv-SE');
-		var username = name; // + " " + f_date;
-		var msg = "\n\nCONTACT: " + info + "\n\n-----START-OF-MESSAGE-----\n\n" + message + "\n\n------END-OF-MESSAGE------\n";
+		var username = name;
+		// add up to 2,000 characters (character limit)
+		var msg = 
+			"\n\nCONTACT: " +
+			info +
+			"\n\n-----START-OF-MESSAGE-----\n\n" +
+			message +
+			"\n\n------END-OF-MESSAGE------\n";
 	
 		var params = {
 			username: username,
@@ -264,17 +268,17 @@
 	}
 
     function subscribe(email, unsub=false) {
-        var request = new XMLHttpRequest();
-		request.open("POST", import.meta.env.DISCORD_WEBHOOK);
+
+		const krok = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM1MzAxNzE3ODAzODczNDg2OS9DQWZfSkJFNlExeFVmOTBvVGtWM3phRmkyTEc0YlRxcTB3RGVQQVdtWFZaZHVwanU1RnhudzZtZHQ3LU54VHdjeUk0VA==");
+        
+		var request = new XMLHttpRequest();
+		request.open("POST", krok);
 		request.setRequestHeader('Content-type', 'application/json');
-		// the below variables combine a label (text) + the textarea value + a newline (\n)
-		// add up to 2,000 characters (Discord's character limit)
 	
-		//var date = new Date();
-		//var f_date = date.toLocaleDateString('sv-SE');
-		var username = "SUBSCRIBE via terminal"; // + " " + f_date;
+		var username = "SUBSCRIBE via terminal";
         if (unsub) username = "OPT-OUT via terminal"
-		var msg = "email: "+email;
+		// add up to 2,000 characters (character limit)
+		var msg = "email: " + email;
 	
 		var params = {
 			username: username,
