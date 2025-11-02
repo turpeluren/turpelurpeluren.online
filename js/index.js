@@ -245,7 +245,7 @@
 
 	function sendMessage(name, info, message) {
 
-		const krok = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM1MzAxNzE3ODAzODczNDg2OS9DQWZfSkJFNlExeFVmOTBvVGtWM3phRmkyTEc0YlRxcTB3RGVQQVdtWFZaZHVwanU1RnhudzZtZHQ3LU54VHdjeUk0VA==");
+		const krok = atob("aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvMTQzNDU5NDk2NTcxOTIyNDQ1My9fa2x0aldrcHNZUzRxbkpJaEN0em9LUU9xLWtYSkRYUEZWdl9pcXd4TXFmd0NDQVZxNGhkRlBmZ29VNnY3MGpCZ3NyMg==");
 
 		var request = new XMLHttpRequest();
 		request.open("POST", krok);
@@ -269,7 +269,7 @@
 
     function subscribe(email, unsub=false) {
 
-		const krok = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM1MzAxNzE3ODAzODczNDg2OS9DQWZfSkJFNlExeFVmOTBvVGtWM3phRmkyTEc0YlRxcTB3RGVQQVdtWFZaZHVwanU1RnhudzZtZHQ3LU54VHdjeUk0VA==");
+		const krok = atob("aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvMTQzNDU5NDk2NTcxOTIyNDQ1My9fa2x0aldrcHNZUzRxbkpJaEN0em9LUU9xLWtYSkRYUEZWdl9pcXd4TXFmd0NDQVZxNGhkRlBmZ29VNnY3MGpCZ3NyMg==");
         
 		var request = new XMLHttpRequest();
 		request.open("POST", krok);
