@@ -1,192 +1,3 @@
-
-const jsondata = '{'+
-    '"y2018": {'+
-        '"jan1": {'+
-            '"n1": "xsvUvrE",'+
-            '"n2": "na7Clg7",'+
-            '"n3": "zXN6UWC",'+
-            '"n4": "oLX18RW",'+
-            '"n5": "kIzMRCs",'+
-            '"n6": "PTTKDK8",'+
-            '"n7": "U0QAFOv",'+
-            '"n8": "n0lDiad",'+
-            '"n9": "Jvkztea",'+
-            '"n10": "n0FPtEp",'+
-            '"n11": "",'+
-            '"n12": "",'+
-            '"n13": "",'+
-            '"n14": "",'+
-            '"n15": "",'+
-            '"n16": "",'+
-            '"n17": "",'+
-            '"n18": "",'+
-            '"n19": "",'+
-            '"n20": "",'+
-            '"n21": "",'+
-            '"n22": "",'+
-            '"n23": "",'+
-            '"n24": "",'+
-            '"n25": "",'+
-            '"n26": "",'+
-            '"n27": "",'+
-            '"n28": "",'+
-            '"n29": "",'+
-            '"n30": "",'+
-            '"n31": ""'+
-        '},'+
-        '"feb2": {'+
-            
-        '},'+
-        '"mar3": {'+
-
-        '},'+
-        '"apr4": {'+
-            '"n10": "R68yNfU"'+
-        
-        '},'+
-        '"maj5": {'+
-
-        '},'+
-        '"jun6": {'+
-            
-        '},'+
-        '"jul7": {'+
-
-        '},'+
-        '"aug8": {'+
-            
-        '},'+
-        '"sep9": {'+
-
-        '},'+
-        '"okt10": {'+
-            
-        '},'+
-        '"nov11": {'+
-
-        '},'+
-        '"dec12": {'+
-            
-        '}'+
-    '},'+
-    '"y2019": {'+
-        '"jan1": {'+
-
-        '},'+
-        '"feb2": {'+
-            
-        '},'+
-        '"mar3": {'+
-
-        '},'+
-        '"apr4": {'+
-        
-        '},'+
-        '"maj5": {'+
-
-        '},'+
-        '"jun6": {'+
-            
-        '},'+
-        '"jul7": {'+
-
-        '},'+
-        '"aug8": {'+
-            
-        '},'+
-        '"sep9": {'+
-
-        '},'+
-        '"okt10": {'+
-            
-        '},'+
-        '"nov11": {'+
-
-        '},'+
-        '"dec12": {'+
-            
-        '}'+
-    '},'+
-    '"y2020": {'+
-        '"jan1": {'+
-
-        '},'+
-        '"feb2": {'+
-            
-        '},'+
-        '"mar3": {'+
-
-        '},'+
-        '"apr4": {'+
-        
-        '},'+
-        '"maj5": {'+
-
-        '},'+
-        '"jun6": {'+
-            
-        '},'+
-        '"jul7": {'+
-
-        '},'+
-        '"aug8": {'+
-            
-        '},'+
-        '"sep9": {'+
-
-        '},'+
-        '"okt10": {'+
-            
-        '},'+
-        '"nov11": {'+
-
-        '},'+
-        '"dec12": {'+
-            
-        '}'+
-    '},'+
-    '"y2021": {'+
-        '"jan1": {'+
-            
-        '},'+
-        '"feb2": {'+
-            
-        '},'+
-        '"mar3": {'+
-
-        '},'+
-        '"apr4": {'+
-            
-        '},'+
-        '"maj5": {'+
-
-        '},'+
-        '"jun6": {'+
-            
-        '},'+
-        '"jul7": {'+
-
-        '},'+
-        '"aug8": {'+
-            
-        '},'+
-        '"sep9": {'+
-
-        '},'+
-        '"okt10": {'+
-            
-        '},'+
-        '"nov11": {'+
-            '"n13": "lLHotkQ"'+
-        '},'+
-        '"dec12": {'+
-            '"n3": "ZxLCTHw",'+
-            '"n24": "l8Iag8t",'+
-            '"n31": "O2f81WH"'+
-        '}'+
-    '}'+
-'}';
-
 const arraydata = [
     ["1 jan 2018", "xsvUvrE"],
     ["2 jan 2018", "na7Clg7"],
@@ -306,36 +117,36 @@ const arraydata = [
     ["29 apr 2018", "syYEkoI"],
     ["30 apr 2018", "lgvJVez"],
     
-    ["1 maj 2018", "wkAQhKW"],
-    ["2 maj 2018", "1TGcLHy"],
-    ["3 maj 2018", "lIehIHc"],
-    ["4 maj 2018", "KG2oqYn"],
-    ["5 maj 2018", "KwV9Zfp"],
-    ["6 maj 2018", "gmuLwCg"],
-    ["7 maj 2018", "GkEnI9c"],
-    ["8 maj 2018", "jVxyvRC"],
-    ["10 maj 2018", "TUJu6ht"],
-    ["11 maj 2018", "XvzVGiw"],
-    ["12 maj 2018", "X5e7C4N"],
-    ["13 maj 2018", "yqjxwNe"],
-    ["14 maj 2018", "UYP6DIA"],
-    ["15 maj 2018", "I4bDItX"],
-    ["16 maj 2018", "s7giIUB"],
-    ["17 maj 2018", "APDzOV7"],
-    ["18 maj 2018", "NfIbbO8"],
-    ["19 maj 2018", "jgHIy3Z"],
-    ["20 maj 2018", "4TYNfY3"],
-    ["21 maj 2018", "vSwJOMs"],
-    ["22 maj 2018", "vEKt477"],
-    ["23 maj 2018", "BpyOT9o"],
-    ["24 maj 2018", "cC6voyn"],
-    ["25 maj 2018", "oRtFIB6"],
-    ["26 maj 2018", "RmyAHzD"],
-    ["27 maj 2018", "Uhd1M9N"],
-    ["28 maj 2018", "ff5uluU"],
-    ["29 maj 2018", "n7fbD2D"],
-    ["30 maj 2018", "HoT92wR"],
-    ["31 maj 2018", "G9jx6og"],
+    ["1 may 2018", "wkAQhKW"],
+    ["2 may 2018", "1TGcLHy"],
+    ["3 may 2018", "lIehIHc"],
+    ["4 may 2018", "KG2oqYn"],
+    ["5 may 2018", "KwV9Zfp"],
+    ["6 may 2018", "gmuLwCg"],
+    ["7 may 2018", "GkEnI9c"],
+    ["8 may 2018", "jVxyvRC"],
+    ["10 may 2018", "TUJu6ht"],
+    ["11 may 2018", "XvzVGiw"],
+    ["12 may 2018", "X5e7C4N"],
+    ["13 may 2018", "yqjxwNe"],
+    ["14 may 2018", "UYP6DIA"],
+    ["15 may 2018", "I4bDItX"],
+    ["16 may 2018", "s7giIUB"],
+    ["17 may 2018", "APDzOV7"],
+    ["18 may 2018", "NfIbbO8"],
+    ["19 may 2018", "jgHIy3Z"],
+    ["20 may 2018", "4TYNfY3"],
+    ["21 may 2018", "vSwJOMs"],
+    ["22 may 2018", "vEKt477"],
+    ["23 may 2018", "BpyOT9o"],
+    ["24 may 2018", "cC6voyn"],
+    ["25 may 2018", "oRtFIB6"],
+    ["26 may 2018", "RmyAHzD"],
+    ["27 may 2018", "Uhd1M9N"],
+    ["28 may 2018", "ff5uluU"],
+    ["29 may 2018", "n7fbD2D"],
+    ["30 may 2018", "HoT92wR"],
+    ["31 may 2018", "G9jx6og"],
 
     ["1 jun 2018", "4lsfSfU"],
     ["2 jun 2018", "XMiItVE"],
@@ -451,35 +262,35 @@ const arraydata = [
     ["29 sep 2018", "t1kt2EX"],
     ["30 sep 2018", "iDRpzEc"],
     
-    ["1 okt 2018", "iBku6b2"],
-    ["2 okt 2018", "BC9vnUf"],
-    ["3 okt 2018", "t0rtq1w"],
-    ["4 okt 2018", "ZKlz5EA"],
-    ["5 okt 2018", "0k3zafw"],
-    ["6 okt 2018", "wYRKWJR"],
-    ["7 okt 2018", "xoZ3RYL"],
-    ["8 okt 2018", "1Ns62ce"],
-    ["9 okt 2018", "bL0K9yI"],
-    ["10 okt 2018", "m4LtTcB"],
-    ["11 okt 2018", "kOcsfmC"],
-    ["12 okt 2018", "blj3Edg"],
-    ["13 okt 2018", "dO3BaG5"],
-    ["14 okt 2018", "p3h77HX"],
-    ["15 okt 2018", "V04FXTf"],
-    ["16 okt 2018", "L7B1XJ5"],
-    ["17 okt 2018", "FK4AvYQ"],
-    ["18 okt 2018", "R7CPwAr"],
-    ["19 okt 2018", "kHO5jzQ"],
-    ["20 okt 2018", "AnziGsk"],
-    ["21 okt 2018", "E4TqAEI"],
-    ["22 okt 2018", "edhaA7G"],
-    ["23 okt 2018", "heWQcPX"],
-    ["24 okt 2018", "fjCL9wO"],
-    ["25 okt 2018", "Ke1FmnI"],
-    ["26 okt 2018", "1grk00Z"],
-    ["27 okt 2018", "tX8fIDX"],
-    ["28 okt 2018", "OiXyDPm"],
-    ["30 okt 2018", "vQWncJc"],
+    ["1 oct 2018", "iBku6b2"],
+    ["2 oct 2018", "BC9vnUf"],
+    ["3 oct 2018", "t0rtq1w"],
+    ["4 oct 2018", "ZKlz5EA"],
+    ["5 oct 2018", "0k3zafw"],
+    ["6 oct 2018", "wYRKWJR"],
+    ["7 oct 2018", "xoZ3RYL"],
+    ["8 oct 2018", "1Ns62ce"],
+    ["9 oct 2018", "bL0K9yI"],
+    ["10 oct 2018", "m4LtTcB"],
+    ["11 oct 2018", "kOcsfmC"],
+    ["12 oct 2018", "blj3Edg"],
+    ["13 oct 2018", "dO3BaG5"],
+    ["14 oct 2018", "p3h77HX"],
+    ["15 oct 2018", "V04FXTf"],
+    ["16 oct 2018", "L7B1XJ5"],
+    ["17 oct 2018", "FK4AvYQ"],
+    ["18 oct 2018", "R7CPwAr"],
+    ["19 oct 2018", "kHO5jzQ"],
+    ["20 oct 2018", "AnziGsk"],
+    ["21 oct 2018", "E4TqAEI"],
+    ["22 oct 2018", "edhaA7G"],
+    ["23 oct 2018", "heWQcPX"],
+    ["24 oct 2018", "fjCL9wO"],
+    ["25 oct 2018", "Ke1FmnI"],
+    ["26 oct 2018", "1grk00Z"],
+    ["27 oct 2018", "tX8fIDX"],
+    ["28 oct 2018", "OiXyDPm"],
+    ["30 oct 2018", "vQWncJc"],
 
     ["1 nov 2018", "YJtkWMw"],
     ["2 nov 2018", "2Ly6A9a"],
@@ -644,32 +455,32 @@ const arraydata = [
     ["29 apr 2019", "CruirTQ"],
     ["30 apr 2019", "1MjWWLa"],
 
-    ["1 maj 2019", "DXwCthx"],
-    ["3 maj 2019", "ngq0yGn"],
-    ["4 maj 2019", "qYmMCC4"],
-    ["6 maj 2019", "k9mn3rq"],
-    ["8 maj 2019", "Gt1PD9Z"],
-    ["9 maj 2019", "uWl42xE"],
-    ["11 maj 2019", "g7aJU0i"],
-    ["12 maj 2019", "kPUykYI"],
-    ["13 maj 2019", "Z96jZpk"],
-    ["14 maj 2019", "oU9y7Rs"],
-    ["15 maj 2019", "zSqXgbH"],
-    ["16 maj 2019", "4N23tBg"],
-    ["17 maj 2019", "dLHRoyU"],
-    ["18 maj 2019", "PkqobcW"],
-    ["19 maj 2019", "N2eg30n"],
-    ["20 maj 2019", "v33iMgS"],
-    ["21 maj 2019", "JsljzOU"],
-    ["22 maj 2019", "v3i5MBR"],
-    ["23 maj 2019", "0z0Ni0C"],
-    ["24 maj 2019", "1B18u2k"],
-    ["25 maj 2019", "WRZSriD"],
-    ["26 maj 2019", "BAZ92in"],
-    ["27 maj 2019", "SfB02wP"],
-    ["29 maj 2019", "A8PafQy"],
-    ["30 maj 2019", "jdbKxpM"],
-    ["31 maj 2019", "4ckR8fH"],
+    ["1 may 2019", "DXwCthx"],
+    ["3 may 2019", "ngq0yGn"],
+    ["4 may 2019", "qYmMCC4"],
+    ["6 may 2019", "k9mn3rq"],
+    ["8 may 2019", "Gt1PD9Z"],
+    ["9 may 2019", "uWl42xE"],
+    ["11 may 2019", "g7aJU0i"],
+    ["12 may 2019", "kPUykYI"],
+    ["13 may 2019", "Z96jZpk"],
+    ["14 may 2019", "oU9y7Rs"],
+    ["15 may 2019", "zSqXgbH"],
+    ["16 may 2019", "4N23tBg"],
+    ["17 may 2019", "dLHRoyU"],
+    ["18 may 2019", "PkqobcW"],
+    ["19 may 2019", "N2eg30n"],
+    ["20 may 2019", "v33iMgS"],
+    ["21 may 2019", "JsljzOU"],
+    ["22 may 2019", "v3i5MBR"],
+    ["23 may 2019", "0z0Ni0C"],
+    ["24 may 2019", "1B18u2k"],
+    ["25 may 2019", "WRZSriD"],
+    ["26 may 2019", "BAZ92in"],
+    ["27 may 2019", "SfB02wP"],
+    ["29 may 2019", "A8PafQy"],
+    ["30 may 2019", "jdbKxpM"],
+    ["31 may 2019", "4ckR8fH"],
 
     ["1 jun 2019", "tcbnCyH"],
     ["2 jun 2019", "KpeC268"],
@@ -725,7 +536,7 @@ const arraydata = [
     ["1 aug 2019", "V7H8XvX"],
     ["2 aug 2019", "WZGsc6n"],
     ["4 aug 2019", "nrkji1a"],
-    ["5 aug 2019", "E1hqPEW"],
+    //["5 aug 2019", "E1hqPEW"], Removed by imgur
     ["7 aug 2019", "SmIDlkU"],
     ["8 aug 2019", "se8MS0p"],
     ["9 aug 2019", "VZK3gaD"],
@@ -777,34 +588,34 @@ const arraydata = [
     ["29 sep 2019", "N8K4nZL"],
     ["30 sep 2019", "JXgWZX3"],
 
-    ["1 okt 2019", "MwranSn"],
-    ["2 okt 2019", "UxmUgBU"],
-    ["3 okt 2019", "yPcGfPc"],
-    ["4 okt 2019", "lNjnmEi"],
-    ["5 okt 2019", "XoUHfGC"],
-    ["6 okt 2019", "n1qLmYm"],
-    ["8 okt 2019", "rg7p59L"],
-    ["9 okt 2019", "u0ql9EC"],
-    ["10 okt 2019", "XuKwuY9"],
-    ["11 okt 2019", "Itb3WXM"],
-    ["12 okt 2019", "P8pbG8b"],
-    ["13 okt 2019", "1XEJBSw"],
-    ["14 okt 2019", "4FDoQiH"],
-    ["15 okt 2019", "OUMmpYA"],
-    ["16 okt 2019", "oyVeXLM"],
-    ["17 okt 2019", "lGCIU3O"],
-    ["18 okt 2019", "mRUXy7C"],
-    ["19 okt 2019", "e66Uj53"],
-    ["20 okt 2019", "xXt5b8m"],
-    ["21 okt 2019", "gWlnRGW"],
-    ["22 okt 2019", "YMf25dq"],
-    ["23 okt 2019", "eTRWhD0"],
-    ["24 okt 2019", "QS4DdXm"],
-    ["26 okt 2019", "wkyJaD3"],
-    ["28 okt 2019", "ICNUWG8"],
-    ["29 okt 2019", "0dzIxii"],
-    ["30 okt 2019", "XR0YWxH"],
-    ["31 okt 2019", "yuDgPHu"],
+    ["1 oct 2019", "MwranSn"],
+    ["2 oct 2019", "UxmUgBU"],
+    ["3 oct 2019", "yPcGfPc"],
+    ["4 oct 2019", "lNjnmEi"],
+    ["5 oct 2019", "XoUHfGC"],
+    ["6 oct 2019", "n1qLmYm"],
+    ["8 oct 2019", "rg7p59L"],
+    ["9 oct 2019", "u0ql9EC"],
+    ["10 oct 2019", "XuKwuY9"],
+    ["11 oct 2019", "Itb3WXM"],
+    ["12 oct 2019", "P8pbG8b"],
+    ["13 oct 2019", "1XEJBSw"],
+    ["14 oct 2019", "4FDoQiH"],
+    ["15 oct 2019", "OUMmpYA"],
+    ["16 oct 2019", "oyVeXLM"],
+    ["17 oct 2019", "lGCIU3O"],
+    ["18 oct 2019", "mRUXy7C"],
+    ["19 oct 2019", "e66Uj53"],
+    ["20 oct 2019", "xXt5b8m"],
+    ["21 oct 2019", "gWlnRGW"],
+    ["22 oct 2019", "YMf25dq"],
+    ["23 oct 2019", "eTRWhD0"],
+    ["24 oct 2019", "QS4DdXm"],
+    ["26 oct 2019", "wkyJaD3"],
+    ["28 oct 2019", "ICNUWG8"],
+    ["29 oct 2019", "0dzIxii"],
+    ["30 oct 2019", "XR0YWxH"],
+    ["31 oct 2019", "yuDgPHu"],
 
     ["1 nov 2019", "MjCZusO"],
     ["2 nov 2019", "irAC2T7"],
@@ -955,33 +766,33 @@ const arraydata = [
     ["28 apr 2020", "0TqDdP1"],
     ["29 apr 2020", "NeGvbDg"],
 
-    ["1 maj 2020", "aqhZ6Js"],
-    ["2 maj 2020", "JZQcpEr"],
-    ["3 maj 2020", "DcSU3ko"],
-    ["4 maj 2020", "QHGpCp9"],
-    ["6 maj 2020", "YujrAJ6"],
-    ["7 maj 2020", "1yoOwpw"],
-    ["8 maj 2020", "vqQGTh1"],
-    ["9 maj 2020", "T9vRhEG"],
-    ["11 maj 2020", "EnJOYdb"],
-    ["12 maj 2020", "Ln314hy"],
-    ["13 maj 2020", "QO8mf1X"],
-    ["15 maj 2020", "zkgVUK2"],
-    ["16 maj 2020", "glydLwU"],
-    ["17 maj 2020", "LzTyG0V"],
-    ["18 maj 2020", "eIUpaMj"],
-    ["19 maj 2020", "do6vbGc"],
-    ["20 maj 2020", "qFUGsWz"],
-    ["21 maj 2020", "Cb6t4xN"],
-    ["22 maj 2020", "5sfF3p0"],
-    ["23 maj 2020", "2TsoA7p"],
-    ["24 maj 2020", "4icedpo"],
-    ["25 maj 2020", "FKSx42d"],
-    ["27 maj 2020", "XUx6vrr"],
-    ["28 maj 2020", "ATKHWcP"],
-    ["29 maj 2020", "fYsTjSQ"],
-    ["30 maj 2020", "0aJz8q1"],
-    ["31 maj 2020", "MI3rnfS"],
+    ["1 may 2020", "aqhZ6Js"],
+    ["2 may 2020", "JZQcpEr"],
+    ["3 may 2020", "DcSU3ko"],
+    ["4 may 2020", "QHGpCp9"],
+    ["6 may 2020", "YujrAJ6"],
+    ["7 may 2020", "1yoOwpw"],
+    ["8 may 2020", "vqQGTh1"],
+    ["9 may 2020", "T9vRhEG"],
+    ["11 may 2020", "EnJOYdb"],
+    ["12 may 2020", "Ln314hy"],
+    ["13 may 2020", "QO8mf1X"],
+    ["15 may 2020", "zkgVUK2"],
+    ["16 may 2020", "glydLwU"],
+    ["17 may 2020", "LzTyG0V"],
+    ["18 may 2020", "eIUpaMj"],
+    ["19 may 2020", "do6vbGc"],
+    ["20 may 2020", "qFUGsWz"],
+    ["21 may 2020", "Cb6t4xN"],
+    ["22 may 2020", "5sfF3p0"],
+    ["23 may 2020", "2TsoA7p"],
+    ["24 may 2020", "4icedpo"],
+    ["25 may 2020", "FKSx42d"],
+    ["27 may 2020", "XUx6vrr"],
+    ["28 may 2020", "ATKHWcP"],
+    ["29 may 2020", "fYsTjSQ"],
+    ["30 may 2020", "0aJz8q1"],
+    ["31 may 2020", "MI3rnfS"],
 
     ["1 jun 2020", "K6lL1nW"],
     ["2 jun 2020", "brHypat"],
@@ -1061,21 +872,21 @@ const arraydata = [
     ["27 sep 2020", "lWFC0Xd"],
     ["28 sep 2020", "oGp7Sse"],
 
-    ["1 okt 2020", "4RwWjFS"],
-    ["2 okt 2020", "7zlTsfQ"],
-    ["4 okt 2020", "VMXNfmP"],
-    ["8 okt 2020", "lZReyOr"],
-    ["9 okt 2020", "tqRB0Bh"],
-    ["14 okt 2020", "UWDdtL4"],
-    ["16 okt 2020", "IjcPxlH"],
-    ["17 okt 2020", "Nt4edrc"],
-    ["20 okt 2020", "OBrgAx2"],
-    ["21 okt 2020", "ebVMlsB"],
-    ["23 okt 2020", "Xy3AypR"],
-    ["24 okt 2020", "sKvpbRX"],
-    ["25 okt 2020", "ETI38B7"],
-    ["26 okt 2020", "cXByx3a"],
-    ["31 okt 2020", "vgdENPQ"],
+    ["1 oct 2020", "4RwWjFS"],
+    ["2 oct 2020", "7zlTsfQ"],
+    ["4 oct 2020", "VMXNfmP"],
+    ["8 oct 2020", "lZReyOr"],
+    ["9 oct 2020", "tqRB0Bh"],
+    ["14 oct 2020", "UWDdtL4"],
+    ["16 oct 2020", "IjcPxlH"],
+    ["17 oct 2020", "Nt4edrc"],
+    ["20 oct 2020", "OBrgAx2"],
+    ["21 oct 2020", "ebVMlsB"],
+    ["23 oct 2020", "Xy3AypR"],
+    ["24 oct 2020", "sKvpbRX"],
+    ["25 oct 2020", "ETI38B7"],
+    ["26 oct 2020", "cXByx3a"],
+    ["31 oct 2020", "vgdENPQ"],
     
     ["1 nov 2020", "HQsd0KS"],
     ["2 nov 2020", "qOXcvlo"],
@@ -1193,23 +1004,23 @@ const arraydata = [
     ["28 apr 2021", "DRDlluR"],
     ["30 apr 2021", "dyoeUPA"],
     
-    ["1 maj 2021", "0xbKOtx"],
-    ["3 maj 2021", "vRyUUET"],
-    ["4 maj 2021", "AOiqCQE"],
-    ["5 maj 2021", "1mlQKmd"],
-    ["11 maj 2021", "HhKsAWi"],
-    ["13 maj 2021", "gdIOB0Y"],
-    ["16 maj 2021", "Cw0wjdg"],
-    ["17 maj 2021", "Cy31LEi"],
-    ["18 maj 2021", "jWt2tyn"],
-    ["20 maj 2021", "Hx17qwB"],
-    ["21 maj 2021", "jtlRCEm"],
-    ["22 maj 2021", "0gIsfGv"],
-    ["25 maj 2021", "jK8esYg"],
-    ["26 maj 2021", "y7rLvbf"],
-    ["28 maj 2021", "NC6K3Iz"],
-    ["29 maj 2021", "oWK38wq"],
-    ["30 maj 2021", "Sk7Uq4Z"],
+    ["1 may 2021", "0xbKOtx"],
+    ["3 may 2021", "vRyUUET"],
+    ["4 may 2021", "AOiqCQE"],
+    ["5 may 2021", "1mlQKmd"],
+    ["11 may 2021", "HhKsAWi"],
+    ["13 may 2021", "gdIOB0Y"],
+    ["16 may 2021", "Cw0wjdg"],
+    ["17 may 2021", "Cy31LEi"],
+    ["18 may 2021", "jWt2tyn"],
+    ["20 may 2021", "Hx17qwB"],
+    ["21 may 2021", "jtlRCEm"],
+    ["22 may 2021", "0gIsfGv"],
+    ["25 may 2021", "jK8esYg"],
+    ["26 may 2021", "y7rLvbf"],
+    ["28 may 2021", "NC6K3Iz"],
+    ["29 may 2021", "oWK38wq"],
+    ["30 may 2021", "Sk7Uq4Z"],
     
     ["2 jun 2021", "iSrvAMO"],
     ["3 jun 2021", "EkiOabn"],
@@ -1289,27 +1100,27 @@ const arraydata = [
     ["29 sep 2021", "aKmZUQT"],
     ["30 sep 2021", "ei8xoOj"],
     
-    ["1 okt 2021", "CJ3PIHE"],
-    ["2 okt 2021", "Ya0UCXp"],
-    ["3 okt 2021", "LbJPkI3"],
-    ["4 okt 2021", "F1BteK2"],
-    ["5 okt 2021", "71OMUnt"],
-    ["7 okt 2021", "1kX9buR"],
-    ["9 okt 2021", "XB7qPIr"],
-    ["10 okt 2021", "oQczmsp"],
-    ["11 okt 2021", "APXMq0a"],
-    ["12 okt 2021", "S91do2L"],
-    ["13 okt 2021", "UlfbwZ5"],
-    ["14 okt 2021", "1QnBjdr"],
-    ["16 okt 2021", "sCnTdcw"],
-    ["17 okt 2021", "NKJ0CBY"],
-    ["18 okt 2021", "6d1AeGh"],
-    ["20 okt 2021", "mUW5iKL"],
-    ["21 okt 2021", "xNy7veC"],
-    ["23 okt 2021", "KP4dc7Y"],
-    ["26 okt 2021", "erhDony"],
-    ["29 okt 2021", "nDGCSgm"],
-    ["30 okt 2021", "ATuz7xC"],
+    ["1 oct 2021", "CJ3PIHE"],
+    ["2 oct 2021", "Ya0UCXp"],
+    ["3 oct 2021", "LbJPkI3"],
+    ["4 oct 2021", "F1BteK2"],
+    ["5 oct 2021", "71OMUnt"],
+    ["7 oct 2021", "1kX9buR"],
+    ["9 oct 2021", "XB7qPIr"],
+    ["10 oct 2021", "oQczmsp"],
+    ["11 oct 2021", "APXMq0a"],
+    ["12 oct 2021", "S91do2L"],
+    ["13 oct 2021", "UlfbwZ5"],
+    ["14 oct 2021", "1QnBjdr"],
+    ["16 oct 2021", "sCnTdcw"],
+    ["17 oct 2021", "NKJ0CBY"],
+    ["18 oct 2021", "6d1AeGh"],
+    ["20 oct 2021", "mUW5iKL"],
+    ["21 oct 2021", "xNy7veC"],
+    ["23 oct 2021", "KP4dc7Y"],
+    ["26 oct 2021", "erhDony"],
+    ["29 oct 2021", "nDGCSgm"],
+    ["30 oct 2021", "ATuz7xC"],
     
     ["2 nov 2021", "aK5vNWq"],
     ["3 nov 2021", "sXV96gW"],
@@ -1378,7 +1189,7 @@ const arraydata = [
     ["18 jan 2022", "C5u9nsJ"],
     ["21 jan 2022", "GnpjFL3"],
     ["22 jan 2022", "Qm5bGDe"],
-    ["23 jan 2022", "FzTWqUv"],
+    //["23 jan 2022", "FzTWqUv"], Removed by imgur
     ["24 jan 2022", "Ez6032n"],
     ["25 jan 2022", "UcvOgcx"],
     ["26 jan 2022", "vgIIu6t"],
@@ -1462,28 +1273,28 @@ const arraydata = [
     ["29 apr 2022", "deOXOhp"],
     ["30 apr 2022", "S01fFCV"],
     
-    ["1 maj 2022", "gp3XqPC"],
-    ["2 maj 2022", "zxI6iIP"],
-    //["2.5 maj 2022", "lLhOp9u"],
-    ["3 maj 2022", "woMisYa"],
-    ["4 maj 2022", "eqdcwiq"],
-    ["5 maj 2022", "GBzq1AD"],
-    ["7 maj 2022", "k7lJHBz"],
-    ["8 maj 2022", "5VoiFs9"],
-    ["9 maj 2022", "mvjmcdJ"],
-    ["10 maj 2022", "3FuksZL"],
-    ["13 maj 2022", "I2UtvkC"],
-    ["14 maj 2022", "FG4v0eZ"],
-    ["15 maj 2022", "R7x9p4T"],
-    ["16 maj 2022", "ZhNbxyf"],
-    ["17 maj 2022", "hzXsN49"],
-    ["18 maj 2022", "0GuYzDd"],
-    ["19 maj 2022", "xrx7Y16"],
-    ["23 maj 2022", "O3UoPql"],
-    ["25 maj 2022", "MCdekKA"],
-    ["26 maj 2022", "1VSQxsl"],
-    ["27 maj 2022", "90GulJ9"],
-    ["28 maj 2022", "5Auotmu"],
+    ["1 may 2022", "gp3XqPC"],
+    ["2 may 2022", "zxI6iIP"],
+    //["2.5 may 2022", "lLhOp9u"],
+    ["3 may 2022", "woMisYa"],
+    ["4 may 2022", "eqdcwiq"],
+    ["5 may 2022", "GBzq1AD"],
+    ["7 may 2022", "k7lJHBz"],
+    ["8 may 2022", "5VoiFs9"],
+    ["9 may 2022", "mvjmcdJ"],
+    ["10 may 2022", "3FuksZL"],
+    ["13 may 2022", "I2UtvkC"],
+    ["14 may 2022", "FG4v0eZ"],
+    ["15 may 2022", "R7x9p4T"],
+    ["16 may 2022", "ZhNbxyf"],
+    ["17 may 2022", "hzXsN49"],
+    ["18 may 2022", "0GuYzDd"],
+    ["19 may 2022", "xrx7Y16"],
+    ["23 may 2022", "O3UoPql"],
+    ["25 may 2022", "MCdekKA"],
+    ["26 may 2022", "1VSQxsl"],
+    ["27 may 2022", "90GulJ9"],
+    ["28 may 2022", "5Auotmu"],
     
     ["3 jun 2022", "q41KEmZ"],
     ["4 jun 2022", "2u7SAVJ"],
@@ -1569,35 +1380,35 @@ const arraydata = [
     ["29 sep 2022", "soTdyXf"],
     ["30 sep 2022", "arld63f"],
     
-    ["1 okt 2022", "JUHMO0C"],
-    ["2 okt 2022", "BHup7TB"],
-    ["3 okt 2022", "S8ONybI"],
-    ["4 okt 2022", "hvcMIgk"],
-    ["5 okt 2022", "go3vS6r"],
-    ["6 okt 2022", "TS5esbu"],
-    ["7 okt 2022", "1ySHcLd"],
-    ["8 okt 2022", "G75qbiX"],
-    ["11 okt 2022", "TdteNCI"],
-    ["12 okt 2022", "XBQNPZC"],
-    ["13 okt 2022", "ulZ2II3"],
-    ["14 okt 2022", "Vknho20"],
-    ["15 okt 2022", "oKfH7o9"],
-    ["16 okt 2022", "iz0vDw2"],
-    ["17 okt 2022", "5zxkAi4"],
-    ["18 okt 2022", "HG3FB43"],
-    ["19 okt 2022", "ewkkZ48"],
-    ["20 okt 2022", "91DEEnK"],
-    ["21 okt 2022", "1ynRkC6"],
-    ["22 okt 2022", "LQ7a6to"],
-    ["23 okt 2022", "gHNculR"],
-    ["24 okt 2022", "hx0rTy5"],
-    ["25 okt 2022", "Od795ff"],
-    ["26 okt 2022", "XhsVwwH"],
-    ["27 okt 2022", "KGnRbE2"],
-    ["28 okt 2022", "UskD7a4"],
-    ["29 okt 2022", "kab3GVE"],
-    ["30 okt 2022", "gwxpgj1"],
-    ["31 okt 2022", "BNHaSx6"],
+    ["1 oct 2022", "JUHMO0C"],
+    ["2 oct 2022", "BHup7TB"],
+    ["3 oct 2022", "S8ONybI"],
+    ["4 oct 2022", "hvcMIgk"],
+    ["5 oct 2022", "go3vS6r"],
+    ["6 oct 2022", "TS5esbu"],
+    ["7 oct 2022", "1ySHcLd"],
+    ["8 oct 2022", "G75qbiX"],
+    ["11 oct 2022", "TdteNCI"],
+    ["12 oct 2022", "XBQNPZC"],
+    ["13 oct 2022", "ulZ2II3"],
+    ["14 oct 2022", "Vknho20"],
+    ["15 oct 2022", "oKfH7o9"],
+    ["16 oct 2022", "iz0vDw2"],
+    ["17 oct 2022", "5zxkAi4"],
+    ["18 oct 2022", "HG3FB43"],
+    ["19 oct 2022", "ewkkZ48"],
+    ["20 oct 2022", "91DEEnK"],
+    ["21 oct 2022", "1ynRkC6"],
+    ["22 oct 2022", "LQ7a6to"],
+    ["23 oct 2022", "gHNculR"],
+    ["24 oct 2022", "hx0rTy5"],
+    ["25 oct 2022", "Od795ff"],
+    ["26 oct 2022", "XhsVwwH"],
+    ["27 oct 2022", "KGnRbE2"],
+    ["28 oct 2022", "UskD7a4"],
+    ["29 oct 2022", "kab3GVE"],
+    ["30 oct 2022", "gwxpgj1"],
+    ["31 oct 2022", "BNHaSx6"],
     
     ["1 nov 2022", "j48p7jl"],
     ["2 nov 2022", "zdegZDi"],
@@ -1679,7 +1490,7 @@ const arraydata = [
     ["22 jan 2023", "j0d3l3c"],
     ["23 jan 2023", "XJF6DQO"],
     ["25 jan 2023", "Xg3IMHH"],
-    ["26 jan 2023", "QzAcqav"],
+    //["26 jan 2023", "QzAcqav"], Removed by imgur
     ["27 jan 2023", "dgaspNN"],
     ["28 jan 2023", "mAiZcPD"],
     ["29 jan 2023", "0JFr9xE"],
@@ -1770,34 +1581,34 @@ const arraydata = [
     ["29 apr 2023", "JuQTJTu"],
     ["30 apr 2023", "kgTbnMP", "valborg hos Ludde i Vallda"],
 
-    ["1 maj 2023", "zQ4DIZY"],
-    ["2 maj 2023", "wpBH0xX"],
-    ["3 maj 2023", "DrPGjXh"],
-    ["4 maj 2023", "ecSwwzB"],
-    ["6 maj 2023", "rhA3Yvf"],
-    ["7 maj 2023", "dE0IEyb"],
-    ["9 maj 2023", "hwVgIUM"],
-    ["10 maj 2023", "mlHF6Bh"],
-    ["11 maj 2023", "V6Awgl8"],
-    ["12 maj 2023", "lDIamhU"],
-    ["13 maj 2023", "1ryZbEC"],
-    ["14 maj 2023", "mTK7mG2"],
-    ["15 maj 2023", "D85psR1"],
-    ["16 maj 2023", "qM4RguV"],
-    ["17 maj 2023", "rmH3nNA"],
-    ["18 maj 2023", "VXbWJfz"],
-    ["19 maj 2023", "prO7zoF"],
-    ["20 maj 2023", "JVaRyAc"],
-    ["21 maj 2023", "1pSLOkm"],
-    ["22 maj 2023", "Z3tqGpY"],
-    ["23 maj 2023", "wtckffs"],
-    ["24 maj 2023", "kln8g3G"],
-    ["25 maj 2023", "gvPq3ym"],
-    ["26 maj 2023", "Sj8Pim0"],
-    ["27 maj 2023", "PAoe49G"],
-    ["29 maj 2023", "TTc0Vou"],
-    ["30 maj 2023", "JDqcq5S", "Vaknade på soffan hos Hugo i Alpedrete. Kollade in byn och gick på Julianas yogaklass."],
-    ["31 maj 2023", "5kVGQSt", "Hajkade i bergen med Juliana. Åt mat från affären i parken och gjorde pizza med Lola & Niko. Amelie fick B på matte 3!"],
+    ["1 may 2023", "zQ4DIZY"],
+    ["2 may 2023", "wpBH0xX"],
+    ["3 may 2023", "DrPGjXh"],
+    ["4 may 2023", "ecSwwzB"],
+    ["6 may 2023", "rhA3Yvf"],
+    ["7 may 2023", "dE0IEyb"],
+    ["9 may 2023", "hwVgIUM"],
+    ["10 may 2023", "mlHF6Bh"],
+    ["11 may 2023", "V6Awgl8"],
+    ["12 may 2023", "lDIamhU"],
+    ["13 may 2023", "1ryZbEC"],
+    ["14 may 2023", "mTK7mG2"],
+    ["15 may 2023", "D85psR1"],
+    ["16 may 2023", "qM4RguV"],
+    ["17 may 2023", "rmH3nNA"],
+    ["18 may 2023", "VXbWJfz"],
+    ["19 may 2023", "prO7zoF"],
+    ["20 may 2023", "JVaRyAc"],
+    ["21 may 2023", "1pSLOkm"],
+    ["22 may 2023", "Z3tqGpY"],
+    ["23 may 2023", "wtckffs"],
+    ["24 may 2023", "kln8g3G"],
+    ["25 may 2023", "gvPq3ym"],
+    ["26 may 2023", "Sj8Pim0"],
+    ["27 may 2023", "PAoe49G"],
+    ["29 may 2023", "TTc0Vou"],
+    ["30 may 2023", "JDqcq5S", "Vaknade på soffan hos Hugo i Alpedrete. Kollade in byn och gick på Julianas yogaklass."],
+    ["31 may 2023", "5kVGQSt", "Hajkade i bergen med Juliana. Åt mat från affären i parken och gjorde pizza med Lola & Niko. Amelie fick B på matte 3!"],
 
     // 1jun "Besökte Segovia. Tåget från Alpedrete var oklart och långsamt men gick bra. Det regnade vi drack en kanna vin, såg slottet, akvedukten & åt pizza."
     ["2 jun 2023", "25QharV", "Åkte till (gaykvarteren) Chueka i Madrid över dagen och köpte present till Cissis student. Pizza- & filmkväll med familjen till Luca. Hugo visade mig Warhall."],
@@ -1902,7 +1713,7 @@ const arraydata = [
     ["11 sep 2023", "HG53a31"],
     ["12 sep 2023", "oR3dxQU"],
     ["13 sep 2023", "CBTHzCF"],
-    ["15 sep 2023", "y8yfbXo"],
+    //["15 sep 2023", "y8yfbXo"], Removed by imgur for some reason
     ["16 sep 2023", "EjnFGNN"],
     ["17 sep 2023", "7jgq814"],
     ["18 sep 2023", "KwUIgLu"],
@@ -1920,37 +1731,38 @@ const arraydata = [
     ["29 sep 2023", "yOqYJlb"],
     ["30 sep 2023", "uXdvacw"],
 
-    ["1 okt 2023", "znHcOEW"],
-    ["2 okt 2023", "oJZjtTx"],
-    ["3 okt 2023", "Zz8qGs6"],
-    ["4 okt 2023", "fztu2cU"],
-    ["5 okt 2023", "9DyB5yj"],
-    ["6 okt 2023", "1EzexY0"],
-    ["7 okt 2023", "RDEqGj3"],
-    ["8 okt 2023", "m7dnGyJ"],
-    ["9 okt 2023", "3jQha32"],
-    ["10 okt 2023", "id1Pa5l"],
-    ["11 okt 2023", "VuwXIBs"],
-    ["12 okt 2023", "6Qevgdk"],
-    ["13 okt 2023", "8kykTHq"],
-    ["14 okt 2023", "zYyoavE"],
-    //["15 okt 2023", "aZoIry7"], Redacted av imgur för vi sitter nakna i bastun
-    ["16 okt 2023", "zAGCbSr"],
-    ["17 okt 2023", "m9lWTJw"],
-    ["19 okt 2023", "eGzi6Ut"],
-    ["20 okt 2023", "emePzGF"],
-    ["21 okt 2023", "GU8jDqz"],
-    ["22 okt 2023", "u2nA4ry"],
-    ["23 okt 2023", "cyb8dOg"],
-    ["24 okt 2023", "pRidkCI"],
-    ["25 okt 2023", "JhLHTw2"],
-    ["26 okt 2023", "bQoJ3ug"],
-    ["27 okt 2023", "Qmbvwn0"],
-    ["28 okt 2023", "tlpqkh5"],
-    ["29 okt 2023", "2fiVQcZ"],
-    ["30 okt 2023", "nstwDA5"],
-    ["31 okt 2023", "32Qt6Yt"],
+    ["1 oct 2023", "znHcOEW"],
+    ["2 oct 2023", "oJZjtTx"],
+    ["3 oct 2023", "Zz8qGs6"],
+    ["4 oct 2023", "fztu2cU"],
+    ["5 oct 2023", "9DyB5yj"],
+    ["6 oct 2023", "1EzexY0"],
+    ["7 oct 2023", "RDEqGj3"],
+    ["8 oct 2023", "m7dnGyJ"],
+    ["9 oct 2023", "3jQha32"],
+    ["10 oct 2023", "id1Pa5l"],
+    ["11 oct 2023", "VuwXIBs"],
+    ["12 oct 2023", "6Qevgdk"],
+    ["13 oct 2023", "8kykTHq"],
+    ["14 oct 2023", "zYyoavE"],
+    //["15 oct 2023", "aZoIry7"], Redacted av imgur för vi sitter nakna i bastun
+    ["16 oct 2023", "zAGCbSr"],
+    ["17 oct 2023", "m9lWTJw"],
+    ["19 oct 2023", "eGzi6Ut"],
+    ["20 oct 2023", "emePzGF"],
+    ["21 oct 2023", "GU8jDqz"],
+    ["22 oct 2023", "u2nA4ry"],
+    ["23 oct 2023", "cyb8dOg"],
+    ["24 oct 2023", "pRidkCI"],
+    ["25 oct 2023", "JhLHTw2"],
+    ["26 oct 2023", "bQoJ3ug"],
+    ["27 oct 2023", "Qmbvwn0"],
+    ["28 oct 2023", "tlpqkh5"],
+    ["29 oct 2023", "2fiVQcZ"],
+    ["30 oct 2023", "nstwDA5"],
+    ["31 oct 2023", "32Qt6Yt"],
 
+    /* Starting below are stabilized with agelapse */
     ["2 nov 2023", "eWBrX4C"],
     ["4 nov 2023", "dNLxHfA"],
     ["5 nov 2023", "XxunCNJ"],
@@ -2119,35 +1931,35 @@ const arraydata = [
     ["28 apr 2024", "vn9ei83"],
     ["29 apr 2024", "FhqmRFB"],
 
-    ["1 maj 2024", "n33oFBC"],
-    ["2 maj 2024", "0ubsgjp"],
-    ["3 maj 2024", "UFNfChl"],
-    ["4 maj 2024", "Z6JARPv"],
-    ["5 maj 2024", "SgV8k0B"],
-    ["6 maj 2024", "myL5Yjb"],
-    ["7 maj 2024", "RoG2TVf"],
-    ["9 maj 2024", "lZzADRC"],
-    ["10 maj 2024", "Cx8IRDP"],
-    ["11 maj 2024", "NGLllto"],
-    ["12 maj 2024", "Gnyksdi"],
-    ["13 maj 2024", "kTdGipZ"],
-    ["14 maj 2024", "rG9NQh3"],
-    ["15 maj 2024", "aqWPk3h"],
-    ["16 maj 2024", "Jd19prE"],
-    ["17 maj 2024", "hCw53NX"],
-    ["18 maj 2024", "VOmmE8r"],
-    ["19 maj 2024", "6pVwI9I"],
-    ["20 maj 2024", "MeKsrg2"],
-    ["22 maj 2024", "mZfihfN"],
-    ["23 maj 2024", "x6TSqqQ"],
-    ["24 maj 2024", "nz39K9I"],
-    ["25 maj 2024", "XdV7db0"],
-    ["26 maj 2024", "LJLKAe3"],
-    ["27 maj 2024", "5fICniD"],
-    ["28 maj 2024", "ybTicJo"],
-    ["29 maj 2024", "E4sTT6N"],
-    ["30 maj 2024", "cLc8Zqn"],
-    ["31 maj 2024", "nf8IPBw"],
+    ["1 may 2024", "n33oFBC"],
+    ["2 may 2024", "0ubsgjp"],
+    ["3 may 2024", "UFNfChl"],
+    ["4 may 2024", "Z6JARPv"],
+    ["5 may 2024", "SgV8k0B"],
+    ["6 may 2024", "myL5Yjb"],
+    ["7 may 2024", "RoG2TVf"],
+    ["9 may 2024", "lZzADRC"],
+    ["10 may 2024", "Cx8IRDP"],
+    ["11 may 2024", "NGLllto"],
+    ["12 may 2024", "Gnyksdi"],
+    ["13 may 2024", "kTdGipZ"],
+    ["14 may 2024", "rG9NQh3"],
+    ["15 may 2024", "aqWPk3h"],
+    ["16 may 2024", "Jd19prE"],
+    ["17 may 2024", "hCw53NX"],
+    ["18 may 2024", "VOmmE8r"],
+    ["19 may 2024", "6pVwI9I"],
+    ["20 may 2024", "MeKsrg2"],
+    ["22 may 2024", "mZfihfN"],
+    ["23 may 2024", "x6TSqqQ"],
+    ["24 may 2024", "nz39K9I"],
+    ["25 may 2024", "XdV7db0"],
+    ["26 may 2024", "LJLKAe3"],
+    ["27 may 2024", "5fICniD"],
+    ["28 may 2024", "ybTicJo"],
+    ["29 may 2024", "E4sTT6N"],
+    ["30 may 2024", "cLc8Zqn"],
+    ["31 may 2024", "nf8IPBw"],
 
     ["1 jun 2024", "4xjRWs9"],
     ["3 jun 2024", "6WNV9Df"],
@@ -2259,35 +2071,35 @@ const arraydata = [
     ["29 sep 2024", "Rf4P81i"],
     ["30 sep 2024", "W2eyNvQ"],
 
-    ["1 okt 2024", "JcUlogl"],
-    ["2 okt 2024", "jkTbheV"],
-    ["3 okt 2024", "ADFzJWB"],
-    ["4 okt 2024", "fJV1pb8"],
-    ["5 okt 2024", "53CLU2x"],
-    ["6 okt 2024", "A6OGDeK"],
-    ["7 okt 2024", "XQVpSJK"],
-    ["8 okt 2024", "jlnfSKw"],
-    ["9 okt 2024", "mLHfuzi"],
-    ["10 okt 2024", "YqVIncC"],
-    ["12 okt 2024", "6TpQCFd"],
-    ["13 okt 2024", "RKjQ0Jy"],
-    ["14 okt 2024", "EtIPyj3"],
-    ["15 okt 2024", "HQWBAaG"],
-    ["16 okt 2024", "JExZzmd"],
-    ["17 okt 2024", "HNOUJ7i"],
-    ["18 okt 2024", "qaPOQHa"],
-    ["19 okt 2024", "b1v26eg"],
-    ["20 okt 2024", "hUThg4d"],
-    ["21 okt 2024", "lVDB0Ve"],
-    ["22 okt 2024", "jJ5a191"],
-    ["23 okt 2024", "wRz2Fvw"],
-    ["24 okt 2024", "7W10Pzy"],
-    ["26 okt 2024", "XZo7UV0"],
-    ["27 okt 2024", "B6Y4hWr"],
-    ["28 okt 2024", "ZQSmn1v"],
-    ["29 okt 2024", "yeKS8sN"],
-    ["30 okt 2024", "9Dz4twm"],
-    ["31 okt 2024", "QdYxkBV"],
+    ["1 oct 2024", "JcUlogl"],
+    ["2 oct 2024", "jkTbheV"],
+    ["3 oct 2024", "ADFzJWB"],
+    ["4 oct 2024", "fJV1pb8"],
+    ["5 oct 2024", "53CLU2x"],
+    ["6 oct 2024", "A6OGDeK"],
+    ["7 oct 2024", "XQVpSJK"],
+    ["8 oct 2024", "jlnfSKw"],
+    ["9 oct 2024", "mLHfuzi"],
+    ["10 oct 2024", "YqVIncC"],
+    ["12 oct 2024", "6TpQCFd"],
+    ["13 oct 2024", "RKjQ0Jy"],
+    ["14 oct 2024", "EtIPyj3"],
+    ["15 oct 2024", "HQWBAaG"],
+    ["16 oct 2024", "JExZzmd"],
+    ["17 oct 2024", "HNOUJ7i"],
+    ["18 oct 2024", "qaPOQHa"],
+    ["19 oct 2024", "b1v26eg"],
+    ["20 oct 2024", "hUThg4d"],
+    ["21 oct 2024", "lVDB0Ve"],
+    ["22 oct 2024", "jJ5a191"],
+    ["23 oct 2024", "wRz2Fvw"],
+    ["24 oct 2024", "7W10Pzy"],
+    ["26 oct 2024", "XZo7UV0"],
+    ["27 oct 2024", "B6Y4hWr"],
+    ["28 oct 2024", "ZQSmn1v"],
+    ["29 oct 2024", "yeKS8sN"],
+    ["30 oct 2024", "9Dz4twm"],
+    ["31 oct 2024", "QdYxkBV"],
 
     ["1 nov 2024", "xMEOTiF"],
     ["2 nov 2024", "WJ8D1Dn"],
@@ -2438,29 +2250,29 @@ const arraydata = [
     ["28 apr 2025", "N66VjgS"],
     ["29 apr 2025", "aQyl15P"],
 
-    ["1 maj 2025", "GbHZcDc"],
-    ["2 maj 2025", "FbWPEDd"],
-    ["3 maj 2025", "PplfFX5"],
-    ["6 maj 2025", "SGCUHRg"],
-    ["7 maj 2025", "7JhHLc2"],
-    ["8 maj 2025", "1h4IY8n"],
-    ["9 maj 2025", "xMxb5gb"],
-    ["10 maj 2025", "08doVwy"],
-    ["12 maj 2025", "juGDLAb"],
-    ["14 maj 2025", "cGuSAkV"],
-    ["15 maj 2025", "R7ftUIy"],
-    ["16 maj 2025", "9qEBPm9"],
-    ["17 maj 2025", "3oV2p9p"],
-    ["19 maj 2025", "Do3wb6u"],
-    ["20 maj 2025", "IsBp3Xr"],
-    ["21 maj 2025", "dDt8Ptt"],
-    ["22 maj 2025", "xEhXztt"],
-    ["23 maj 2025", "UwpcrtP"],
-    ["25 maj 2025", "y7kTIwM"],
-    ["27 maj 2025", "f7ZsuLr"],
-    ["29 maj 2025", "T8mN9zG"],
-    ["30 maj 2025", "xaTUM0j"],
-    ["31 maj 2025", "FVbcTIf"],
+    ["1 may 2025", "GbHZcDc"],
+    ["2 may 2025", "FbWPEDd"],
+    ["3 may 2025", "PplfFX5"],
+    ["6 may 2025", "SGCUHRg"],
+    ["7 may 2025", "7JhHLc2"],
+    ["8 may 2025", "1h4IY8n"],
+    ["9 may 2025", "xMxb5gb"],
+    ["10 may 2025", "08doVwy"],
+    ["12 may 2025", "juGDLAb"],
+    ["14 may 2025", "cGuSAkV"],
+    ["15 may 2025", "R7ftUIy"],
+    ["16 may 2025", "9qEBPm9"],
+    ["17 may 2025", "3oV2p9p"],
+    ["19 may 2025", "Do3wb6u"],
+    ["20 may 2025", "IsBp3Xr"],
+    ["21 may 2025", "dDt8Ptt"],
+    ["22 may 2025", "xEhXztt"],
+    ["23 may 2025", "UwpcrtP"],
+    ["25 may 2025", "y7kTIwM"],
+    ["27 may 2025", "f7ZsuLr"],
+    ["29 may 2025", "T8mN9zG"],
+    ["30 may 2025", "xaTUM0j"],
+    ["31 may 2025", "FVbcTIf"],
 
     ["1 jun 2025", "abiWa4U"],
     ["3 jun 2025", "sjulM6s"],
@@ -2571,31 +2383,31 @@ const arraydata = [
     ["29 sep 2025", "0Rs4hOv"],
     ["30 sep 2025", "R8jOLIQ"],
 
-    ["1 okt 2025", "ZsrUdzT"],
-    ["2 okt 2025", "WWPzxME"],
-    ["3 okt 2025", "6ezwH0G"],
-    ["4 okt 2025", "RTq5MyO"],
-    ["5 okt 2025", "C20S89X"],
-    ["6 okt 2025", "qVTZNUo"],
-    ["7 okt 2025", "25ki0z7"],
-    ["8 okt 2025", "OnHQqBv"],
-    ["10 okt 2025", "vNqsFJV"],
-    ["11 okt 2025", "HEL82pn"],
-    ["12 okt 2025", "DWgTXuP"],
-    ["13 okt 2025", "AlXr4Jc"],
-    ["14 okt 2025", "HxUZggd"],
-    ["15 okt 2025", "ykeAU3S"],
-    ["17 okt 2025", "TPjF1SO"],
-    ["19 okt 2025", "wQfzkH9"],
-    ["20 okt 2025", "VsPm9e4"],
-    ["22 okt 2025", "LCuZZiD"],
-    ["23 okt 2025", "tbb6Wog"],
-    ["25 okt 2025", "kG50Vg3"],
-    ["26 okt 2025", "W8nQYgd"],
-    ["28 okt 2025", "hxuwTOW"],
-    ["29 okt 2025", "eoLvHMy"],
-    ["30 okt 2025", "BURmqTw"],
-    ["31 okt 2025", "gEUEfgY"],
+    ["1 oct 2025", "ZsrUdzT"],
+    ["2 oct 2025", "WWPzxME"],
+    ["3 oct 2025", "6ezwH0G"],
+    ["4 oct 2025", "RTq5MyO"],
+    ["5 oct 2025", "C20S89X"],
+    ["6 oct 2025", "qVTZNUo"],
+    ["7 oct 2025", "25ki0z7"],
+    ["8 oct 2025", "OnHQqBv"],
+    ["10 oct 2025", "vNqsFJV"],
+    ["11 oct 2025", "HEL82pn"],
+    ["12 oct 2025", "DWgTXuP"],
+    ["13 oct 2025", "AlXr4Jc"],
+    ["14 oct 2025", "HxUZggd"],
+    ["15 oct 2025", "ykeAU3S"],
+    ["17 oct 2025", "TPjF1SO"],
+    ["19 oct 2025", "wQfzkH9"],
+    ["20 oct 2025", "VsPm9e4"],
+    ["22 oct 2025", "LCuZZiD"],
+    ["23 oct 2025", "tbb6Wog"],
+    ["25 oct 2025", "kG50Vg3"],
+    ["26 oct 2025", "W8nQYgd"],
+    ["28 oct 2025", "hxuwTOW"],
+    ["29 oct 2025", "eoLvHMy"],
+    ["30 oct 2025", "BURmqTw"],
+    ["31 oct 2025", "gEUEfgY"],
 
     ["1 nov 2025", "cgJ72tY"],
     ["2 nov 2025", "8JvvMUC"],
@@ -2643,14 +2455,180 @@ const arraydata = [
     ["29 dec 2025", "3JK3fat"],
     ["30 dec 2025", "D5Yhbcj"],
     ["31 dec 2025", "FPshLws"],
+
+    ["1 jan 2026", "DwcRF9r"],
+    ["2 jan 2026", "uBGVT0Z"],
+    ["3 jan 2026", "ksiikAq"],
+    ["4 jan 2026", "t85ooI2"],
+    ["6 jan 2026", "XdLM5Cw"],
+    ["7 jan 2026", "GPoFYub"],
+    ["8 jan 2026", "faBIRvH"],
+    ["10 jan 2026", "ccZdf72"],
+    ["11 jan 2026", "AJNA6X9"],
+    ["12 jan 2026", "pKrd71O"],
+    ["13 jan 2026", "SmgMJi9"],
+    ["14 jan 2026", "Eg4xUzY"],
+    ["15 jan 2026", "1VfoF8C"],
+    ["16 jan 2026", "rEo0Gdo"],
+    ["17 jan 2026", "S9x2zar"],
+    ["18 jan 2026", "dro9dHy"],
+    ["19 jan 2026", "PpfqIG1"],
+    ["20 jan 2026", "yQEEXyw"],
+    ["21 jan 2026", "zYeKtGR"],
+    ["22 jan 2026", "hzOtKoi"],
+    ["23 jan 2026", "sBFa88V"],
+    ["25 jan 2026", "C0iUGN8"],
+    ["27 jan 2026", "ngdV2kz"],
+    ["28 jan 2026", "Xvf3q0H"],
+    ["29 jan 2026", "WrPSs5F"],
+    ["30 jan 2026", "qcOhloZ"],
+
+    ["1 feb 2026", "UIjUPNR"],
+    ["2 feb 2026", "m4VmKU9"],
+    ["3 feb 2026", "OyBEjHy"],
+    ["4 feb 2026", "0NKZNk2"],
+    ["5 feb 2026", "LmJmVQB"],
+    ["10 feb 2026", "nLLoS2U"],
+    ["11 feb 2026", "MitaDZl"],
+    ["12 feb 2026", "tLEUU26"],
+    ["14 feb 2026", "rBhugki"],
+    ["17 feb 2026", "lhGua6v"],
+    ["18 feb 2026", "kQvcSZk"],
+    ["19 feb 2026", "IFEbb3T"],
+    ["20 feb 2026", "aqfqDk7"],
+    ["23 feb 2026", "OGU4ETB"],
+    ["26 feb 2026", "dUxQYBl"],
+
+    ["1 mar 2026", "6KjNmVl"],
+    ["3 mar 2026", "ooqR5YD"],
+    ["4 mar 2026", "GU1ybPO"],
+    ["6 mar 2026", "5Egmm8p"],
+    ["10 mar 2026", "A78MXZT"],
+    ["11 mar 2026", "ZzYwz6S"],
+    ["12 mar 2026", "r56wr53"],
+    ["15 mar 2026", "XBOrGAp"],
+    ["16 mar 2026", "E5W096T"],
+    ["17 mar 2026", "fSDxu2P"],
+    ["18 mar 2026", "PC4sW1o"],
+    ["19 mar 2026", "FlzmYzA"],
+    ["20 mar 2026", "nOWRjrL"],
+    ["21 mar 2026", "UPN7bqm"],
+    ["22 mar 2026", "b1mdgwx"],
+    ["23 mar 2026", "qqHd1Y8"],
+    ["24 mar 2026", "3WeEz59"],
+    ["25 mar 2026", "CDBGCQs"],
+    ["26 mar 2026", "Y4S0PH3"],
+    ["28 mar 2026", "nxMk5gf"],
+    ["29 mar 2026", "XSWJ3Vf"],
+    ["30 mar 2026", "Nfytn27"],
+    ["31 mar 2026", "SBmXJGU"],
+
+    ["1 apr 2026", "Dz6TgTY"],
+    ["2 apr 2026", "KUTKRxU"],
+    ["3 apr 2026", "pg3mQtN"],
+    ["4 apr 2026", "KTuKL5i"],
+    ["5 apr 2026", "VpFCal9"],
+    ["7 apr 2026", "N9IyFm2"],
+    ["8 apr 2026", "4HhHdhB"],
+    ["9 apr 2026", "ukNbiiH"],
+    ["11 apr 2026", "6FI5JOY"],
+    ["13 apr 2026", "IwoznmJ"],
+    ["14 apr 2026", "iuIAuCy"],
+    ["15 apr 2026", "WoLJmaJ"],
+    ["16 apr 2026", "CopmrAC"],
+    ["17 apr 2026", "ojDxnD5"],
+    ["18 apr 2026", "l7QwGay"],
+    ["20 apr 2026", "pRNETbI"],
+    ["21 apr 2026", "AW9LYaW"],
+    ["22 apr 2026", "m9RHgZA"],
+    ["23 apr 2026", "NQN0NnL"],
+    ["24 apr 2026", "x20HBdB"],
+    ["26 apr 2026", "1GD0yZW"],
+    ["27 apr 2026", "br4sZU2"],
+    ["28 apr 2026", "iUW0zCF"],
+    ["29 apr 2026", "wmUYyRH"],
+    ["30 apr 2026", "UmHFLiV"],
+
+    ["1 may 2026", "6JNaFAR"],
+    ["2 may 2026", "6WygiWz"],
+    ["3 may 2026", "SehAS7u"],
+    ["4 may 2026", "F4cRxuK"],
+    ["6 may 2026", "UMkok0o"],
+    ["7 may 2026", "Daz1FNI"],
+    ["8 may 2026", "PRp5Xju"],
+    ["9 may 2026", "5rI7CeG"],
+    ["10 may 2026", "VknxoCp"],
+    ["11 may 2026", "yoGhFis"],
+    ["12 may 2026", "rpD0dCE"],
+    ["13 may 2026", "cz2sv2I"],
+    ["17 may 2026", "V15wdaA"],
+    ["21 may 2026", "9TQaVmy"],
+    ["23 may 2026", "sMvqu9B"],
+    ["24 may 2026", "v2tmcKJ"],
+    ["25 may 2026", "w020Lqv"],
+    ["26 may 2026", "eACcDJS"],
+    ["27 may 2026", "8WayOOz"],
+    ["28 may 2026", "DJi0zi2"],
+    ["29 may 2026", "VKsvESE"],
+    ["31 may 2026", "YFs4JCG"],
+
+    ["2 jun 2026", "Faq3Qrd"],
+    ["4 jun 2026", "14OfELp"],
+    ["6 jun 2026", "0iF5nmi"],
+    ["8 jun 2026", "g10n49e"],
+    ["9 jun 2026", "S6V8zko"],
+    ["10 jun 2026", "dhkGEpN"],
+    ["13 jun 2026", "iPkki8k"],
+    ["14 jun 2026", "g0FoCNj"],
+    ["15 jun 2026", "JRyyBpG"],
+    ["17 jun 2026", "CGwZ1i2"],
+    ["19 jun 2026", "cwLlzrZ"],
+    ["21 jun 2026", "fkjXom7"],
+    ["22 jun 2026", "0jiqFxm"],
+    ["23 jun 2026", "utgp44N"],
+    ["24 jun 2026", "9X21iOY"],
+    ["25 jun 2026", "qSAUjsc"],
+    ["26 jun 2026", "ksUCw8H"],
+    ["27 jun 2026", "bPGXpGQ"],
+    ["28 jun 2026", "3Xtpk9j"],
+    ["29 jun 2026", "RdnqyN7"],
+    ["30 jun 2026", "N2zxHVR"],
+
+    ["1 jul 2026", "YdprcJv"],
+    ["2 jul 2026", "NbJaG03"],
+    ["3 jul 2026", "sG0tPqw"],
+    ["6 jul 2026", "sfYp5Nc"],
+    ["7 jul 2026", "hFb1wnZ"],
+    ["9 jul 2026", "E0HP34I"],
+    ["10 jul 2026", "2FYhxUd"],
+    ["11 jul 2026", "lolWnnN"],
+    ["12 jul 2026", "3QO8Pja"],
+    ["15 jul 2026", "1pO9yr1"],
+    ["16 jul 2026", "Of1daCF"],
+    ["17 jul 2026", "3oREv4e"],
+    ["18 jul 2026", "vRe9y5F"],
+    ["19 jul 2026", "BZt57HQ"],
+    ["20 jul 2026", "4HPS3rd"],
+    ["21 jul 2026", "H2ANWrD"],
+    ["22 jul 2026", "rNyNq7l"],
+    ["23 jul 2026", "HUPCNHM"],
+    ["24 jul 2026", "N8byN8E"],
+    ["25 jul 2026", "9EOqelK"],
+    ["26 jul 2026", "3dJBO4z"],
+    ["27 jul 2026", "pe1pQn4"],
+    ["28 jul 2026", "PD2iGAA"],
+    ["29 jul 2026", "e3XoWUT"],
+    ["30 jul 2026", "KyLyfUB"],
+    ["31 jul 2026", "euwPAjS"],
+
+    /* INSERT HERE */
 ];
 
 (function () {
     //'use strict';
 
-
     const data = arraydata;
-    let pointer = data.length-1;
+    let pointer = 0; //data.length-1;
 
     const playBtn = document.getElementsByClassName('play')[0];
     const playIcon = playBtn.children[0];
@@ -2671,6 +2649,10 @@ const arraydata = [
     const timePointer = document.getElementsByClassName('timePointer')[0];
     const timelineSlider = document.getElementsByClassName('timeSlider')[0];
     let imgURL = "";
+
+    // Populate day and year counter on the page
+    document.getElementById('dayCount').innerHTML = data.length;
+    document.getElementById('yearCount').innerHTML = ((new Date(data[data.length-1][0]) - new Date(data[0][0])) / (1000 * 60 * 60 * 24) / 365.25).toFixed(2);
 
     console.log(timelineSlider);
     console.log(slider);

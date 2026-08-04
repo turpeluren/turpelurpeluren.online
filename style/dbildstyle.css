@@ -48,7 +48,7 @@ body {
     font-weight: 300;
     transform: translateY(-6px);
 }
-a.ytLink {
+a.link {
     width: fit-content;
     padding-right: 1.2em;
     background: url('../img/icons/launch_gm_grey_18dp.png') bottom right no-repeat;
@@ -390,7 +390,7 @@ a.ytLink {
 }
 
 @media only screen and (max-height: calc(28px + 78px + 48px * 2 + 32px + min(56.25vw, 0.5625 * 1024px) + 48px)) {
-    .header h2, .header .ytLink {
+    .header h2, .header .link {
         animation: 0.2s ease-in 0s 1 normal both running scrollOffTop;
     }
     .header {
@@ -442,7 +442,7 @@ a.ytLink {
     .header h2 {
         font-size: 48px;
     }
-    .header .ytLink {
+    .header .link {
         font-size: 48px;
 
         padding-right: 1.2em;
