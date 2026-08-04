@@ -126,7 +126,7 @@ const arraydata = [
     ["7 may 2018", "GkEnI9c"],
     ["8 may 2018", "jVxyvRC"],
     ["10 may 2018", "TUJu6ht"],
-    ["11 may 2018", "XvzVGiw"],
+    ["11 may 2018", "XvzVGiw"], // Verkar inte ladda..?
     ["12 may 2018", "X5e7C4N"],
     ["13 may 2018", "yqjxwNe"],
     ["14 may 2018", "UYP6DIA"],
@@ -2637,8 +2637,10 @@ const arraydata = [
     const firstBtn = document.getElementsByClassName('firstStep')[0];
     const lastBtn = document.getElementsByClassName('lastStep')[0];
     const date = document.getElementById('date');
+    const display = document.getElementsByClassName('display')[0];
     const imgContainer = document.getElementsByClassName('imgContainer')[0];
     const img = document.getElementById('image');
+    const newimg = document.getElementById('newImage');
     const oldimg = document.getElementById('lastImage');
     const preloadContainer = document.getElementsByClassName('preloadContainer')[0]; //container for preloaded images
     const slider = document.getElementById('fpsSlider').children[1];
@@ -2653,9 +2655,6 @@ const arraydata = [
     // Populate day and year counter on the page
     document.getElementById('dayCount').innerHTML = data.length;
     document.getElementById('yearCount').innerHTML = ((new Date(data[data.length-1][0]) - new Date(data[0][0])) / (1000 * 60 * 60 * 24) / 365.25).toFixed(2);
-
-    console.log(timelineSlider);
-    console.log(slider);
 
     playBtn.addEventListener('click', play);
     backBtn.addEventListener('click', stepBack);
@@ -2691,22 +2690,11 @@ const arraydata = [
         }
     });
 
-    img.addEventListener("load", event => {
-        //onload for the image, if playing change to next image
-        var image = document.querySelector('img');
-        var isLoaded = image.complete && image.naturalHeight !== 0;
-        if (isPlaying) {
-            changeImage(1);
-            animateLastFrame(0);
-            //set timeout to not change image too fast
-            isPlaying = false;
-            clearTimeout(playTimeout);
-            playTimeout = setTimeout(resumePlaying, fps);
-        }
-    });
+    let waitingForImageLoad = false;
 
     let size = 'h'; //t: thumbnail, m: medium, l: large, h: huge: tom string: största
     var playTimeout; //timeout for switching image while playing
+    var loadTimeout; //timeout for max time loading image
     var isPlaying = false; 
     var fps = (1000 / slider.value);
     var id = [];
@@ -2729,25 +2717,87 @@ const arraydata = [
         // display image from the imgur index array
         //  using the pointer array
 
-        oldimg.src = img.src;
+        onLoad = () => {
+            waitingForImageLoad = false;
+            clearTimeout(loadTimeout);
+            oldimg.src = img.src;
+            img.src = newimg.src;
+            if (isPlaying) {
+                clearTimeout(playTimeout);
+                playTimeout = setTimeout(resumePlaying, fps);
+            }
+            //update date
+            date.innerHTML = getDate();
+
+            //update timeline
+            updateTimeLine();
+        }
+
+        onError = () => {
+            waitingForImageLoad = false;
+            clearTimeout(loadTimeout);
+            console.error("Error loading image: " + newimg.src);
+            // Reset the src of all images, displaying only the placeholder background
+            /*img.src = "";
+            newimg.src = "";
+            oldimg.src = "";*/
+            if (isPlaying) {
+                // Move on
+                clearTimeout(playTimeout);
+                resumePlaying();
+            } else {
+                // Retry
+                setTimeout(updateImage, 500);
+            }
+            //update date
+            date.innerHTML = getDate();
+
+            //update timeline
+            updateTimeLine();
+        }
+
+        // if there is already an event listener on the new image, remove it
+        newimg.removeEventListener("load", onLoad, { once: true });
+        newimg.removeEventListener("error", onError, { once: true });
+        clearTimeout(loadTimeout);
+
         imgURL = data[pointer][1];
-        console.log(data[pointer][1])
-        img.src = "";
-        img.src = "https://imgur.com/" + imgURL + size + ".jpg";
+        //console.log(data[pointer][1])
+        newimg.src = "";
+        newimg.src = "https://imgur.com/" + imgURL + size + ".jpg";
+
+        //preload next image
+        preloadImage();
+
+        if (!newimg.complete || newimg.naturalHeight === 0) {
+            if (!waitingForImageLoad) {
+                waitingForImageLoad = true;
+                newimg.addEventListener("load", onLoad, { once: true });
+                newimg.addEventListener("error", onError, { once: true });
+                loadTimeout = setTimeout(() => {
+                    if (waitingForImageLoad) {
+                        waitingForImageLoad = false;
+                        console.error("Image load timeout: " + newimg.src);
+                        onError();
+                    }
+                }, 3000); // 3 seconds timeout
+                return; // Exit the function to wait for the image to load
+            }
+        }
+
+        oldimg.src = img.src;
+        img.src = newimg.src;
 
         //update date
         date.innerHTML = getDate();
 
         //update timeline
         updateTimeLine();
-
-        //preload next image
-        preloadImage();
     }
 
     function animateLastFrame(dir) {
         var nr = onionskin.length;
-        console.log(nr)
+        //console.log(nr)
         onionskin[nr] = document.createElement('img');
         onionskin[nr].classList.add('lastImage');
         onionskin[nr].src = oldimg.src;
@@ -2761,7 +2811,7 @@ const arraydata = [
         function frame(nr) {
             if (Math.abs(pos[nr]) >= 1) {
                 clearInterval(id[nr]);
-                console.log(1-Math.abs(pos[nr])/1)
+                //console.log(1-Math.abs(pos[nr])/1)
                 onionskin[nr].remove();
             } else {
                 pos[nr] += 1/onionTime*4; //Math.round(slider.value^0.2)+3; //pos[nr]/5;
@@ -2783,18 +2833,9 @@ const arraydata = [
         if (loadstyle == 'playing') {
             //preload high res of current image and three forward at current (playing) res
             preload(0, 0, 'h');
-            preload(1, 1);
-            preload(2, 2);
-            preload(3, 3);
-            preload(4, 4);
-            preload(5, 5);
-            preload(6, 6);
-            preload(7, 7);
-            preload(8, 8);
-            preload(9, 9);
-            preload(10, 10);
-            preload(11, 11);
-            preload(12, 12);
+            for (var i = 0; i < preloadContainer.children.length; i++) {
+                preload(i, i);
+            }
         }
     }
 
@@ -2809,7 +2850,7 @@ const arraydata = [
             // if arrayindex points outside array bounds
             finalarrayindex = pointer + arrayindex + data.length;
         }
-        console.log(presize)
+        //console.log(presize)
         preloadContainer.children[htmlindex].src = "https://imgur.com/" + data[finalarrayindex][1] + presize + ".jpg";
     }
 
@@ -2855,18 +2896,26 @@ const arraydata = [
         } else {
             //play
             playBtn.classList.add('paused');
-            resumePlaying();
             size = 'l';
             loadstyle = 'playing';
+            isPlaying = true;
+            resumePlaying();
         }
     }
 
     function resumePlaying() {
-        //when the minimum interval has passed for playing 
-        //  goto next image
+        //when the minimum interval has passed for playing
+        //  goto next image, but wait if the current image is still loading
+        if (!isPlaying) {
+            return;
+        }
+
+        if (waitingForImageLoad) {
+            return;
+        }
+
         changeImage(1);
         animateLastFrame(0);
-        isPlaying = false;
         playTimeout = setTimeout(resumePlaying, fps);
     }
 
