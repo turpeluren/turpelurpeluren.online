@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     /*background-color: black;*/
 
-    max-height: 100vh;
+    /*max-height: 100vh;*/
 
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@ a.link {
     width: fit-content;
     padding-right: 1.2em;
     background: url('../img/icons/launch_gm_grey_18dp.png') bottom right no-repeat;
+    background-size: 1em 1em;
 }
 
 .focus {
@@ -434,21 +435,19 @@ a.link {
         color: white;
     }
     .header h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
     .header h1 a {
         color:aqua;
     }
     .header h2 {
-        font-size: 48px;
+        font-size: 36px;
+    }
+    .header p {
+        font-size: 36px;
     }
     .header .link {
-        font-size: 48px;
-
-        padding-right: 1.2em;
-        background-size: 48px;
         color:aqua;
-
     }
     .buttonRow {
         height: 128px;
