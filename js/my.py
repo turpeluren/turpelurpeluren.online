@@ -20,12 +20,13 @@ months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", 
 if len(sys.argv) < 2:
     print("Error: no imgur HTML file provided")
     print("Usage: python3 my.py <imgur_html_file>")
+    print("Read the comments in this file for further details")
     exit()
 with open(sys.argv[1], "r") as f:
     rawimgurhtml = f.read()
 
 # Let user input month (1-12) and year (yyyy)
-mon = input("Month: ")
+mon = input("Month (numeric): ")
 year = input("Year: ")
 
 # Parse the HTML to extract the imgur codes
@@ -56,6 +57,7 @@ print()
 # Check if the number of missing days matches the number of images
 if len(missingdays) != 32-len(imgurhtml):
     print("Error: number of missing days does not match number of images")
+    print("Are the stabilized images located in: {} ?".format(pathtoimagedir))
     exit()
 
 # Pad both arrays to length 32
