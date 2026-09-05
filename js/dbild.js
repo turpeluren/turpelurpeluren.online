@@ -2621,6 +2621,32 @@ const arraydata = [
     ["30 jul 2026", "KyLyfUB"],
     ["31 jul 2026", "euwPAjS"],
 
+    ["1 aug 2026", "PuFW4YC"],
+    ["2 aug 2026", "1WjJ2vy"],
+    ["3 aug 2026", "FfNAO6H"],
+    ["4 aug 2026", "dAIGrJI"],
+    ["5 aug 2026", "Aiv6w85"],
+    ["7 aug 2026", "VdGbChq"],
+    ["8 aug 2026", "dH5X06w"],
+    ["9 aug 2026", "RDEgdeE"],
+    ["10 aug 2026", "u7dGfHV"],
+    ["11 aug 2026", "smvFMAo"],
+    ["12 aug 2026", "X25EKug"],
+    ["13 aug 2026", "uwE5xUm"],
+    ["15 aug 2026", "dKqcvGu"],
+    ["17 aug 2026", "N3atIdy"],
+    ["18 aug 2026", "WyqZ7h6"],
+    ["20 aug 2026", "zOSSWAF"],
+    ["21 aug 2026", "jzzWah8"],
+    ["22 aug 2026", "T3NzSV5"],
+    ["23 aug 2026", "sYcmaZh"],
+    ["24 aug 2026", "g1zWSjK"],
+    ["25 aug 2026", "rufedRK"],
+    ["26 aug 2026", "Usmiu7V"],
+    ["27 aug 2026", "PBo4AtZ"],
+    ["28 aug 2026", "RL9NntT"],
+    ["31 aug 2026", "gJqpp7Y"],
+
     /* INSERT HERE */
 ];
 
